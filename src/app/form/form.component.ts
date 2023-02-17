@@ -27,6 +27,7 @@ export class FormComponent {
   data: any;
 
   ngOnInit(): void {
+    this.Hideshowform();
     this.hacathon = new FormGroup(
       {
         fname: new FormControl('',[Validators.required,Validators.pattern('[a-zA-Z]+$')]),
