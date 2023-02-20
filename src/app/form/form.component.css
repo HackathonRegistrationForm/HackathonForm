@@ -30,8 +30,8 @@ body{
 	border-radius: 5px;
 	height: 10%;
 	width: 450px;
-	margin-left: -25%;
-	margin-top: -20%;
+	margin-left: 10%;
+	margin-top: -30%;
 }
 mat-toolbar-row{
     background-color: white;
@@ -51,6 +51,7 @@ h2{
 	border-radius: 5px;
 	width: 400px;
 	margin-top: -5%;
+	margin-left: 5%;
 }
 .registration_form .title{
 	text-align: center;
