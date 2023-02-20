@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { subscribeOn } from 'rxjs';
 import Swal from 'sweetalert2';
 
 @Component({
