@@ -22,18 +22,16 @@ body{
 	justify-content: center;
 	align-items: center;
 	
-	
 }
 
 .registration_form1{
 	background: white;
 	padding: 20px;
 	border-radius: 5px;
-	
+	height: 10%;
 	width: 450px;
-	margin-left: 10%;
-	margin-top: -20%;
-	padding-bottom: -10%;
+	
+	margin-top: -12%;
 }
 mat-toolbar-row{
     background-color: white;
@@ -51,9 +49,11 @@ h2{
 	background: white;
 	padding: 20px;
 	border-radius: 5px;
+	margin-left:1%;
 	width: 400px;
 	margin-top: -5%;
-	margin-left: 5%;
+
+
 }
 .registration_form .title{
 	text-align: center;

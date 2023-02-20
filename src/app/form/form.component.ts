@@ -102,6 +102,18 @@ export class FormComponent {
 
    
 }
+view(){
+  if(this.Obj.length==0)
+  {
+    Swal.fire( "Do you want to see Participant details? <br> Please Register !!", '', 'error').then(() => {                   //Error messsage will be displayed
+      
+  })
+}else
+{
+  window.location.href='./show'
+}
+
+}
 
   onsubmit(){
   }

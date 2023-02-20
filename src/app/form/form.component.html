@@ -3,7 +3,7 @@
 		<mat-toolbar-row>
 			<img style="width:70px;height: 50px;" src="./assets/images-removebg-preview (1).png">
 			<h1 style="color:black;font-size: 40px;margin-left: 15%; " >Hackathon Application Register By FEB 20-22</h1><br>
-			<button style="padding: 0.5%;float: right; margin-left: 4%;" routerLink="/show" >View Details</button>
+			<button style="padding: 0.5%;float: right; margin-left: 4%;"   (click)="view()" >View Details</button>
 		</mat-toolbar-row>
 	</mat-toolbar>
 	<br>
@@ -11,19 +11,19 @@
 <p id="result"></p>
 <div class="wrapper" >
 
-	<div class="row" style="font-size: 25px;"> REGISTER BY
-		<hr style="font-weight: bold;">
-	<div class="col">
-	<div>Start Date:-20/02/2023</div>
-	<div>End Date:-22/02/2023</div>
-		</div>
-	</div>
+	
 
 	
 	<div class="wrapper">
-		
+		<div class="row" style="text-align: start;"> REGISTER BY
+			<hr style="font-weight: bold;text-align: start;">
+		<div class="col" style="text-align: start;">
+		<div>Start Date:-20/02/2023</div>
+		<div>End Date:-22/02/2023</div>
+			</div>
+		</div>
 
-
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		<div class="registration_form1">
 			<div class="form_wrap">
@@ -86,6 +86,7 @@
 		</div>
 		</div>
 		</div>
+		
   	<div class="registration_form">
   		<div class="title">
   			Hackathon Registration
@@ -144,7 +145,7 @@
   					</ul>
   				</div>
   				<div class="input_wrap">
-  					<input type="submit" (click)="onSubmit()" value="Submit" class="submit_btn"> 
+  					<input type="submit" (click)="onSubmit()"  value="Submit" class="submit_btn"> 
   				</div>
   			</div>
   		</form>
